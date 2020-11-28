@@ -1,0 +1,58 @@
+section#post-list {
+  width: 100%;
+  max-width: 580px;
+  margin: 0px auto;
+  padding: 0px 30px;
+}
+section#post-list article {
+  background: #fff;
+  border: 1px solid #DDD;
+  margin-top: 30px;
+}
+section#post-list article > img {
+  width: 100%;
+}
+section#post-list article p {
+  font-size: 13px;
+  margin-top: 2px;
+  line-height: 18px;
+}
+section#post-list article p span {
+  color: #7159c1;
+  display: block;
+}
+section#post-list .actions {
+  margin-bottom: 10px;
+}
+section#post-list .actions img {
+  height: 20px;
+  margin-right: 10px;
+}
+section#post-list footer {
+  padding: 20px;
+}
+section#post-list footer .actions {
+  margin-bottom: 10px;
+}
+section#post-list footer img {
+  height: 20px;
+  margin-right: 10px;
+}
+section#post-list header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section#post-list .user-info {
+  display: flex;
+  flex-direction: column;
+}
+section#post-list .user-info span {
+  font-size: 13px;
+}
+section#post-list .user-info .place {
+  font-size: 11px;
+  color: #666;
+  margin-top: 3px;
+}
